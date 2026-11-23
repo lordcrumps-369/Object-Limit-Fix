@@ -1,0 +1,77 @@
+[
+  {
+    "path": "build.ps1",
+    "bytes": 1746,
+    "sha256": "9e980add3a17abfd19824f931e1fc4873641d67f75983c328a920336a7bd3550"
+  },
+  {
+    "path": "CatalogueIndexFixture.cpp",
+    "bytes": 3913,
+    "sha256": "a7d6d7c04eabeb6e30c82d618bba81e01a8d072033eabea744c209e3ac99d070"
+  },
+  {
+    "path": "CombinedGuardCheck.cpp",
+    "bytes": 4223,
+    "sha256": "1dbb05b977c2dde834d64047becc6f7409977c8b4a3f7c7e70f5bb5fa356cc44"
+  },
+  {
+    "path": "CombinedObjectLimitFix.cpp",
+    "bytes": 1360,
+    "sha256": "c887e15995de0ac5f8f9634290a00de35c70097454a17f7c059eda23909306ed"
+  },
+  {
+    "path": "CombinedPatch.h",
+    "bytes": 5034,
+    "sha256": "a5d36b43f455cb6c4a728ad1344a467881457772fc27d75f09a53278f6b88acc"
+  },
+  {
+    "path": "fixture_bytes.h",
+    "bytes": 859,
+    "sha256": "d9572042d1594aa37012ca45597a1027851c3aa475d53632bbccca7ec434a61f"
+  },
+  {
+    "path": "guard_bytes.h",
+    "bytes": 266,
+    "sha256": "d7949c3225fa16492c81604425e46035164a138c4a2d76f8abaac744e98c4cb2"
+  },
+  {
+    "path": "GuardBehaviourCheck.cpp",
+    "bytes": 4032,
+    "sha256": "3ecb7fb6fe7e22a95abc999a172c804efdc5d588c8ec49615956ed24746b2e0c"
+  },
+  {
+    "path": "ImageCompatibilityCheck.cpp",
+    "bytes": 4665,
+    "sha256": "f0b593076aadf55d11f3779635c3076f789c5800f65d2e5ded8801db078b536d"
+  },
+  {
+    "path": "LayoutBytes.h",
+    "bytes": 5956,
+    "sha256": "877d39f2bbf5bca7ef0486654c26857f707c049127ca49f9bc57447d272c6797"
+  },
+  {
+    "path": "LayoutValidation.h",
+    "bytes": 3150,
+    "sha256": "6ad258b927625437d59e5f0a71620a114e058e14c7b94ea42ebaf1f27aba7616"
+  },
+  {
+    "path": "LICENSE.txt",
+    "bytes": 1370,
+    "sha256": "d1b70cf86ad4516bd3fab468a1e3707c7d546a557202c07d12e378293c6bf032"
+  },
+  {
+    "path": "manifest.json",
+    "bytes": 1101,
+    "sha256": "9cdd4725a52341d712c62ce4a1da67ce00dfc6b050bd0f079e93cc4de56c495d"
+  },
+  {
+    "path": "README.txt",
+    "bytes": 3707,
+    "sha256": "5f6251fc830fd973fcef1f66f9bf11cdf528045188fc1c3fc3cd472b71cc679e"
+  },
+  {
+    "path": "test-results.json",
+    "bytes": 4381,
+    "sha256": "bd67af9b6b70fdf68bc93195fd2911ed1a854e645c1667c4ea5e2bed506da278"
+  }
+]

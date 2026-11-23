@@ -1,0 +1,53 @@
+[
+  {
+    "test": "CatalogueIndexFixture",
+    "exit_code": 0,
+    "output": "PASS 4090302 native-x86 lookup checks across all three actual call sequences and the original getter\nPASS 1828467 behaviour differences explained by the removed signed-16 truncation; below-boundary regressions=0\nPASS primary and secondary arrays, indices crossing 32768 and 65536, invalid indices and disabled manager\nFixture only: does not establish live catalogue selection, placement, Sim behaviour or save compatibility.\n"
+  },
+  {
+    "test": "CombinedGuardCheck",
+    "exit_code": 0,
+    "output": "PASS invalid/truncated image refused\nPASS each conflicting index, guard or cave refused without any writes\nPASS each conflicting index, guard or cave refused without any writes\nPASS each conflicting index, guard or cave refused without any writes\nPASS each conflicting index, guard or cave refused without any writes\nPASS each conflicting index, guard or cave refused without any writes\nPASS each conflicting index, guard or cave refused without any writes\nPASS each conflicting index, guard or cave refused without any writes\nPASS each conflicting index, guard or cave refused without any writes\nPASS each conflicting index, guard or cave refused without any writes\nPASS modified getter refused\nPASS partial/legacy index installation refused without modifying it\nPASS page preparation/restore failure rolls back both fixes together\nPASS page preparation/restore failure rolls back both fixes together\nPASS page preparation/restore failure rolls back both fixes together\nPASS page preparation/restore failure rolls back both fixes together\nPASS page preparation/restore failure rolls back both fixes together\nPASS page preparation/restore failure rolls back both fixes together\nPASS instruction-cache failure restores all original bytes\nPASS instruction-cache failure restores all original bytes\nPASS instruction-cache failure restores all original bytes\nPASS instruction-cache failure restores all original bytes\nPASS both fixes installed from original code\nPASS exact combined plan: 9 index bytes, 15 branch bytes and 54 guard-stub bytes\nPASS complete repeated installation idempotent\nPASS single ASI loads in isolated host\nPASS RAM-only status export present\nPASS compiled ASI uses code-layout validation without a hash allowlist\nPASS unsupported executable or legacy-mod setup refused without patching host\n"
+  },
+  {
+    "test": "GuardBehaviourCheck",
+    "exit_code": 0,
+    "output": "PASS 1536 native-x86 equivalence cases: all three guards, null/non-null, independent ESI/EDI, registers, flags, stack and exact skip/resume paths\n"
+  },
+  {
+    "test": "full-image-1",
+    "exit_code": 0,
+    "output": "PASS supported full PE: 78 planned bytes only; all other 46208146 mapped bytes, headers, code, data and page protections preserved; repeat application unchanged\n"
+  },
+  {
+    "test": "full-image-2",
+    "exit_code": 0,
+    "output": "PASS supported full PE: 78 planned bytes only; all other 46208146 mapped bytes, headers, code, data and page protections preserved; repeat application unchanged\n"
+  },
+  {
+    "test": "full-image-3",
+    "exit_code": 0,
+    "output": "PASS supported full PE: 78 planned bytes only; all other 46208146 mapped bytes, headers, code, data and page protections preserved; repeat application unchanged\n"
+  },
+  {
+    "test": "full-image-4",
+    "exit_code": 0,
+    "output": "PASS supported full PE: 78 planned bytes only; all other 46208146 mapped bytes, headers, code, data and page protections preserved; repeat application unchanged\n"
+  },
+  {
+    "test": "beth-full-image",
+    "exit_code": 0,
+    "output": "PASS supported full PE: 78 planned bytes only; all other 46208146 mapped bytes, headers, code, data and page protections preserved; repeat application unchanged\n"
+  },
+  {
+    "test": "legacy-refusal",
+    "exit_code": 0,
+    "output": "PASS unsupported full PE image refused without code writes\n"
+  },
+  {
+    "test": "unknown-header-and-overlay-variant",
+    "fixture_sha256": "6b4f6052aa78f2f271142dbe384da79b617e4158a1e99e17f462e79258b6d85e",
+    "exit_code": 0,
+    "output": "PASS supported full PE: 78 planned bytes only; all other 46208146 mapped bytes, headers, code, data and page protections preserved; repeat application unchanged\n"
+  }
+]

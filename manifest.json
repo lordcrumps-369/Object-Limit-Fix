@@ -1,0 +1,30 @@
+{
+  "version": "1.3",
+  "binary_sha256": "3ef7f96ab6c4fb3ba5117636f4923220cdaf932c50303ee6d1ee798ad85c11f8",
+  "binary_bytes": 45176,
+  "executable_hash_allowlist": false,
+  "exe_file_reads": false,
+  "bcrypt_dependency": false,
+  "old_filename_gate": false,
+  "validation": "Relevant in-memory code and PE layout, conflict checks and writable executable guard padding",
+  "patch_engine_changed": false,
+  "patch_engine_sha256": "a5d36b43f455cb6c4a728ad1344a467881457772fc27d75f09a53278f6b88acc",
+  "wine_tested": false,
+  "live_gameplay_tested_this_release": false,
+  "test_report": "test-results.json",
+  "status_exports": {
+    "TS2_ObjectLimitFix_CompatibilityMode": 1,
+    "TS2_ObjectLimitFix_Version": 10300,
+    "TS2_ObjectLimitFix_Status": {
+      "0": "pending",
+      "10": "validating",
+      "1": "active",
+      "2": "already active",
+      "-2": "code or padding conflict",
+      "-3": "page protection failure",
+      "-4": "invalid or incompatible image layout",
+      "-5": "worker start failure",
+      "-7": "instruction cache flush failure"
+    }
+  }
+}
